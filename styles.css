@@ -1,0 +1,36 @@
+:root {
+    --color-background: #1E1E1E;
+    --color-secundary: #188c01;
+    --color-primary: #fff;    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primary)
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+.title {
+    font-family: 'Black Ops One', cursive;
+}
+
+.container {
+    text-align: left;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>div {
+    width: 50%;
+}
+.subtitle {
+    margin: 20px 0;
+}
