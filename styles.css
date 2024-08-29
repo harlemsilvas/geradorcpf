@@ -29,8 +29,40 @@ body {
 }
 
 .container>div {
-    width: 50%;
+    width: 20%;
 }
 .subtitle {
     margin: 20px 0;
+}
+.div-radio {
+    display: flex;
+}
+.input-radio {
+    margin-right: 2rem;
+}
+.input-radio>input {
+    margin-right: 5px;
+}
+.button-generate {
+    width: 80%;
+    background-color: var(--color-secundary);
+    color: var(--color-primary);
+    border: none;
+    padding: 10px 0;
+    border-radius: 8px;
+    margin: 1rem 0;
+    font-size: large;
+    cursor: pointer;
+}
+.button-generate:hover {
+    opacity: 0.8;
+}
+.input-result {
+    width: 80%;
+    padding: 10px 0;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    border: none;
+    margin-top: 1rem;
+    color: var(--color-background);
 }
