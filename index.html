@@ -17,14 +17,14 @@
             <p class="subtitle">Pontos e traços ?</p>
             <div class="div-radio">
                 <div class="input-radio">
-                    <input type="radio" name="" id=""><label for="">Sim</label>
+                    <input type="radio" checked name="dotAndDashes" id="dotAndDashesTrue" value="sim"><label for="">Sim</label>
                 </div>
                 <div class="input-radio">
-                    <input type="radio" name="" id=""><label for="">Não</label>
+                    <input type="radio" name="dotAndDashes" id="dotAndDashes" value="nao"><label for="">Não</label>
                 </div>
             </div>            
-            <button class="button-generate">Gerar </button>            
-            <input type="text" disabled class="input-result">
+            <button class="button-generate" onclick="generateCPF()">Gerar </button>            
+            <input type="text" disabled class="input-result" id="inputResult">
         </div>
     </div>    
     <script src="./script.js"></script>

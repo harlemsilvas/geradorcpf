@@ -35,13 +35,14 @@ body {
     margin: 20px 0;
 }
 .div-radio {
-    display: flex;
+    display: flex;     
 }
-.input-radio {
+.input-radio {    
     margin-right: 2rem;
 }
-.input-radio>input {
+.input-radio>input {        
     margin-right: 5px;
+    accent-color: #17A3F1; 
 }
 .button-generate {
     width: 80%;
@@ -50,8 +51,7 @@ body {
     border: none;
     padding: 10px 0;
     border-radius: 8px;
-    margin: 1rem 0;
-    font-size: large;
+    margin: 1rem 0;    
     cursor: pointer;
 }
 .button-generate:hover {
@@ -65,4 +65,7 @@ body {
     border: none;
     margin-top: 1rem;
     color: var(--color-background);
+    font-size: large;
+    text-align: center;
+
 }
